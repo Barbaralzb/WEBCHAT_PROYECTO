@@ -7,6 +7,12 @@ module.exports = httpServer => {
     const io = new Server(httpServer)
 
     io.on("connection", socket => {
+        socket.on("message", message => {
+            io.emit("message", {
+                user: 'barbara',
+                message
+            })
+        })
         console.log(socket.id);
     })
 }
