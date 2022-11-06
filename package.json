@@ -1,0 +1,28 @@
+{
+  "name": "webchat_proyecto",
+  "version": "1.0.0",
+  "description": "proyecto del curso de socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barbaralzb/WEBCHAT_PROYECTO.git"
+  },
+  "author": "Barbara Lizama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barbaralzb/WEBCHAT_PROYECTO/issues"
+  },
+  "homepage": "https://github.com/Barbaralzb/WEBCHAT_PROYECTO#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
